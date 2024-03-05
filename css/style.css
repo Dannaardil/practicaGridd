@@ -85,14 +85,24 @@ body{
 }
 .item__3 img{
     width: 100%;
-    height: 26vh;
+    height: 30vh;
     object-fit: contain;
 }
 .text3{
-    font-size: 1.9rem;
+    font-size: 1.3rem;
 }
 .item__4{
     grid-area: MacBook_Air_Screen_Pro;
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.item__4 img{
+    width: 100%;
+    height: 26vh;
+    object-fit: contain;
 }
 @media (width < 800px){
     .container{
