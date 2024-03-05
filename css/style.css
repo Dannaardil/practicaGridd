@@ -11,11 +11,124 @@ box-sizing: border-box;
     grid-template-columns: repeat(13, 1fr);
     grid-template-rows: repeat(8,1fr);
     grid-gap: 8px;
-    width: 500px;
-    height: 600px;
+    width: 1000px;
+    grid-gap: 10px;
+    height: 900px;
+    border-width: 10px;
+    border: green;
     margin: 15px auto;
+  background-color: red;
+  grid-template-areas: 
+  
 
 
 
 
+
+}
+.item__1{
+    display: flex;
+    width: 25vh;
+    height: 30vh;
+    flex-wrap: wrap;
+    grid-area: uno;
+}
+.item__2{
+    display: flex;
+    width: 25vh;
+    height: 30vh;
+    grid-area: dos;
+
+}
+.item__3{
+    display: flex;
+    width: 25vh;
+    height: 30vh;
+    grid-area: tres;
+   
+}
+.item__4{
+    display: flex;
+    width: 25vh;
+    height: 30vh;
+    grid-area: cuatro;
+}
+.item__5{
+    display: flex;
+    width: 25vh;
+    height: 30vh;
+    grid-area: cinco;
+}
+.item__6{
+    display: flex;
+    width: 25vh;
+    height: 30vh;
+    grid-area: seis;
+}
+.item__7{
+    display: flex;
+    width: 25vh;
+    height: 30vh;
+    grid-area: siete;
+}
+.item__8{
+    display: flex;
+    width: 25vh;
+    height: 30vh;
+    grid-area: ocho;
+}
+.item__9{
+    display: flex;
+    width: 25vh;
+    height: 30vh;
+    grid-area:  nueve;
+}
+.item__10{
+    display: flex;
+    width: 25vh;
+    height: 30vh;
+    grid-area: diez;
+}
+.item__11{
+    display: flex;
+    width: 25vh;
+    height: 30vh;
+    grid-area: once;
+}
+.item__12{
+    display: flex;
+    width: 25vh;
+    height: 30vh;
+    grid-area: doce;
+}
+.item__13{
+    display: flex;
+    width: 25vh;
+    height: 30vh;
+    grid-area: trece;
+}
+.item__14{
+    display: flex;
+    width: 25vh;
+    height: 30vh;
+    grid-area: catorce;
+}
+
+.item__15{
+    display: flex;
+    width: 25vh;
+    height: 30vh;
+    grid-area: quince;
+}
+.item__16{
+    display: flex;
+    width: 25vh;
+    height: 30vh;
+    grid-area: dieciseis;
+}
+.item__17{
+    display: flex;
+    width: 25vh;
+    height: 30vh;
+    grid-area: diecisiete;
 }
