@@ -1,5 +1,8 @@
 :root{
-    --color-primary:#ececec;
-    --color-secundary:#cccccc;
+    --color-primary: #f3f3f5;
+    --color-secundary: #fff;
     --color-transparencia: rgba(0, 0, 0, 0.287);
+    --color-price: #d58859;
 }
+
+
