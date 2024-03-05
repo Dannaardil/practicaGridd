@@ -216,3 +216,27 @@ body{
     object-fit: contain;
 }
 
+@media (width < 900px){
+    .container{
+        width: 100%;
+        grid-template-areas: 
+        "reloj reloj reloj reloj reloj reloj reloj reloj reloj reloj reloj reloj reloj reloj reloj reloj reloj reloj reloj reloj"
+        "gps gps gps gps gps gps gps gps gps gps gps gps gps gps gps gps gps gps gps gps"
+        "Depth Depth Depth Depth Depth Depth Depth Depth Depth Depth Depth Depth Depth Depth Depth Depth Depth Depth Depth Depth"
+        "Carbon Carbon Carbon Carbon Carbon Carbon Carbon Carbon Carbon Carbon Carbon Carbon Carbon Carbon Carbon Carbon Carbon Carbon Carbon Carbon"
+        "relojC relojC relojC relojC relojC relojC relojC relojC relojC relojC relojC relojC relojC relojC relojC relojC relojC relojC relojC relojC"
+        "montaña montaña montaña montaña montaña montaña montaña montaña montaña montaña montaña montaña montaña montaña montaña montaña montaña montaña montaña montaña"
+        "modular modular modular modular modular modular modular modular modular modular modular modular modular modular modular modular modular modular modular modular"
+        "battery battery battery battery battery battery battery battery battery battery battery battery battery battery battery battery battery battery battery battery"
+        "dive dive dive dive dive dive dive dive dive dive dive dive dive dive dive dive dive dive dive dive"
+        "new new new new new new new new new new new new new new new new new new new new"
+        "Customizable Customizable Customizable Customizable Customizable Customizable Customizable Customizable Customizable Customizable Customizable Customizable Customizable Customizable Customizable Customizable Customizable Customizable Customizable Customizable"
+        "procesador procesador procesador procesador procesador procesador procesador procesador procesador procesador procesador procesador procesador procesador procesador procesador procesador procesador procesador procesador"
+        "Siri Siri Siri Siri Siri Siri Siri Siri Siri Siri Siri Siri Siri Siri Siri Siri Siri Siri Siri Siri"
+        "cycling cycling cycling cycling cycling cycling cycling cycling cycling cycling cycling cycling cycling cycling cycling cycling cycling cycling cycling cycling"
+        "Precision Precision Precision Precision Precision Precision Precision Precision Precision Precision Precision Precision Precision Precision Precision Precision Precision Precision Precision Precision"
+        "flash flash flash flash flash flash flash flash flash flash flash flash flash flash flash flash flash flash flash flash"
+        "gesture gesture gesture gesture gesture gesture gesture gesture gesture gesture gesture gesture gesture gesture gesture gesture gesture gesture gesture gesture"
+        ;
+    }
+}
